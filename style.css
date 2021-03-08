@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body {
+  color: #fff;
+  background: #c7c0a9;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 5% 0 6%;
+  text-align: center;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lower {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 5%;
+}
+
+.shop:hover {
+  background: url(images/women2.png) no-repeat;
+}
+
+.about {
+  margin-left: 2%;
+}
+
+.about:hover {
+  background: url(images/cup2.png) no-repeat;
+}
+
+.menu:hover {
+  background: url(images/cake2.png) no-repeat;
+}
+
+.news {
+  margin-top: 0.5%;
+}
+
+.news:hover {
+  background: url(images/mug2.png) no-repeat;
+}
+
+.recruit {
+  margin-left: 5%;
+}
+
+.recruit:hover {
+  background: url(images/paper2.png) no-repeat;
+}
+
+.photo:hover {
+  background: url(images/men2.png) no-repeat;
+}
+
+p {
+  text-align: right;
+  margin-right: 2%;
+}
